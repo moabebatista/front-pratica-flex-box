@@ -1,0 +1,92 @@
+body {
+    background: #E5E5E5;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background: #E28625;
+    border-radius: 8px;
+}
+
+.card-1, .card-2, .card-3 {
+    width: 307px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-2 {
+    background: #006971;
+    border-radius: 8px;
+    
+}
+
+.card-3 {
+    background: #004140;
+    border-radius: 0px 8px 8px 0px;
+    
+}
+
+.corpo-cards {
+    padding: 48px 48px;
+}
+
+
+p, a {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #F2F2F2;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFF;
+    margin-bottom: 85px;
+}
+
+a {
+    background: #F2F2F2;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn-card-1 {
+    color: #E28625;
+}
+
+.btn-card-2 {
+    color: #006971;
+}
+
+.btn-card-3 {
+    color: #004140;
+}
+
+
+
+
+
+
+/*font-family: 'Big Shoulders Display', cursive;
+*/

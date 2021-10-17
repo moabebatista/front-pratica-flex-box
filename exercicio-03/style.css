@@ -1,0 +1,80 @@
+body {
+    background: #E5E5E5;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1437px;
+    height: 608px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 90px 60px;
+}
+
+.titulo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 65px;
+    color: #0C1727;
+}
+
+.colecoes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.colecoes h2 {
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.colecoes img {
+    background: #FFF;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.colecoes p {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 35px;
+}
+
+.colecoes a {
+    text-decoration: none;
+    background: #0C1727;
+    border-radius: 3px;
+    color: #FFF;
+    padding: 12px 25px;
+}
+
+.comics-1, .comics-2, .comics-3 {
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 35px 60px 50px 60px;
+}
+
+.comics-1 {
+    background: #F8F2FA;
+}
+
+.comics-2 {
+    background: #FAF2F4;
+}
+
+.comics-3 {
+    background: #F5F2FA;
+}
